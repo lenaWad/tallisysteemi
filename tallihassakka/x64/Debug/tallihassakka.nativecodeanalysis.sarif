@@ -1,0 +1,51 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.35.32216.1",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/omistaja/source/repos/tallihassakka/tallihassakka/tallihassakka.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "8ed6cf95e23c88d3c620cbd802aad9f1a6a845cf5353451f137ae4ec8d3f6c8e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/omistaja/source/repos/tallihassakka/tallihassakka/asukkaat.h"
+          },
+          "hashes": {
+            "sha-256": "0f3f2629e5091efb2bd90417bae21b34145fcd1528f9c2dfc527e4ca6d7e2183"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/omistaja/source/repos/tallihassakka/tallihassakka/heppa.h"
+          },
+          "hashes": {
+            "sha-256": "01c284aec4ba36e2ca3a745e63dc130e2f4b7b522698165e8421ac865014d51a"
+          }
+        }
+      ]
+    }
+  ]
+}

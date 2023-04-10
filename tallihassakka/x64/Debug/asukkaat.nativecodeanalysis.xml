@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\OMISTAJA\source\repos\tallihassakka\tallihassakka\</FILEPATH>
+      <FILENAME>asukkaat.cpp</FILENAME>
+      <LINE>6</LINE>
+      <COLUMN>10</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'asukkaat::vuosi_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>asukkaat::{ctor}</FUNCTION>
+    <DECORATED>??0asukkaat@@QEAA@XZ</DECORATED>
+    <FUNCLINE>6</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>asukkaat::vuosi_</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
